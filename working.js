@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         Brute Force Spinning + Toast Toggle + Smart Auto Smash
-// @namespace    http://tampermonkey.net/
-// @version      2024-04-24
-// @description  brute spin + hide spam + smart auto smash newly added cubes under a value
-// @author       IQZB
-// @match        https://cubecollector.net/*
-// @grant        none
-// ==/UserScript==
-
 (function () {
     const panel = document.createElement('div')
     panel.style.position = 'fixed'
